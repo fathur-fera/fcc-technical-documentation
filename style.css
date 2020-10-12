@@ -1,0 +1,34 @@
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+#navbar{
+    height: 100vh;
+}
+
+@media(max-width:768px){
+    #navbar {
+        position: relative;
+        height: auto;
+        border: none;
+    }
+    .navbar-nav{
+        height: 100px;
+        overflow: hidden auto;
+    }
+}
+
+code{
+    display: inline-block;
+    background-color: #eeeeee;
+    margin: 0 0 1rem;
+    padding:1rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
